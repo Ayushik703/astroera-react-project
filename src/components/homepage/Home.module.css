@@ -1,0 +1,206 @@
+/* Banner css start*/
+
+.main-banner-area {
+  background-image: url("./images/banner-img-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-layer {
+  background-image: linear-gradient(182deg, #000000cf);
+}
+
+.banner-text {
+  padding: 10px 0px 10px 70px;
+  color: #000;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.banner-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.banner-text h2 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.banner-text p {
+  font-size: 18px;
+}
+.banner-side-img {
+  border-radius: 8px;
+  width: 60%;
+  text-align: center;
+}
+
+.banner-side-img img {
+  width: 280px;
+  height: auto;
+}
+
+.banner-parts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background: #fde9dd;
+}
+
+.banner-padding-div {
+  padding: 40px 0 20px;
+}
+
+.four-box {
+  padding-bottom: 20px;
+}
+
+.box-div {
+  /* background: #ccc; */
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.box-div-inner {
+  width: 24%;
+  text-align: center;
+}
+
+.box-div-inner a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  transition: 0.5s;
+  gap: 10px;
+}
+
+.box-div-inner a img {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.box-div-inner a span {
+  font-size: 17px;
+}
+
+.box-div-inner a:hover {
+  background: #ccc;
+  border: 1px solid #a2a2a2;
+}
+.chat-now {
+  background: linear-gradient(90deg, #f77e25 0, #fb572f 100%);
+  width: 125px;
+  display: block;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+.chat-now:hover {
+  background: #001a4a;
+  color: #fff;
+}
+
+.availabe-on {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+}
+
+.availabe-on a {
+  text-decoration: underline;
+  color: #000;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* Banner Css */
+
+  .banner-text {
+    padding: 10px 0 10px 15px;
+    gap: 5px;
+  }
+
+  .banner-text h1 {
+    font-size: 15px;
+  }
+
+  .banner-text h2 {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .chat-now {
+    width: 100px;
+    font-size: 11px;
+    height: 25px;
+    line-height: 25px;
+  }
+
+  .banner-text p {
+    font-size: 12px;
+    margin: 0;
+  }
+  .availabe-on a {
+    font-size: 15px;
+  }
+
+  .banner-side-img {
+    width: 45%;
+  }
+
+  .banner-side-img img {
+    width: 100px;
+  }
+  .banner-padding-div {
+    padding: 20px 0;
+  }
+  .box-div {
+    gap: 10px;
+  }
+
+  .box-div-inner a {
+    background: transparent;
+    border: none;
+    color: #fff;
+  }
+
+  .box-div-inner a img {
+    width: 60px;
+    border: none;
+  }
+
+  .box-div-inner a span {
+    font-size: 13px;
+  }
+
+  .box-div-inner a:hover {
+    background: transparent;
+    border: none;
+  }
+}

@@ -1,0 +1,61 @@
+button.slick-prev:before {
+  color: #000 !important;
+  font-size: 35px !important;
+}
+
+button.slick-prev {
+  left: -45px !important;
+}
+
+button.slick-next {
+  right: -30px !important;
+}
+button.slick-next.slick-disabled {
+  cursor: not-allowed;
+}
+button.slick-prev.slick-disabled {
+  cursor: not-allowed;
+}
+
+button.slick-next:before {
+  color: #000 !important;
+  font-size: 35px !important;
+}
+
+.head-navbar .nav-item.dropdown:hover a {
+  color: #fff !important;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.mod-header {
+  display: none;
+}
+
+.web-header {
+  display: block;
+}
+.full-screen {
+  z-index: 999999 !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .footer-row-urls .row .col-sm-6 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .mod-header {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+  }
+  .web-header {
+    display: none;
+  }
+}

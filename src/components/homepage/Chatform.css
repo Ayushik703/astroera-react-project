@@ -1,0 +1,82 @@
+.chat-request-modal {
+  padding: 10px 40px 20px;
+}
+
+form.chat-request-form label {
+  font-size: 14px;
+}
+
+form.chat-request-form label span {
+  color: #d30000;
+}
+
+form.chat-request-form input,
+form.chat-request-form select {
+  font-size: 14px;
+  height: 40px;
+  outline: 0;
+}
+
+form.chat-request-form .col-lg-4 {
+  margin-bottom: 20px;
+}
+
+.gender-radio-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+
+.gender-radio-btn input {
+  width: 15px;
+  height: 15px !important;
+}
+
+.gender-radio-btn .form-check.form-check-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.partner-check {
+  width: 15px;
+  height: 15px !important;
+}
+.initiate-chat {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.initiate-chat button {
+  margin: auto;
+  width: 65%;
+  padding: 8px;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #f77e25 0, #fb572f 100%);
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .chat-request-modal {
+    padding: 10px 15px 10px;
+  }
+
+  .chat-request-modal h5.modal-title {
+    font-size: 16px;
+  }
+
+  .chat-request-modal .modal-header {
+    padding: 5px 0;
+  }
+  form.chat-request-form .col-lg-4 {
+    margin-bottom: 10px;
+  }
+  .initiate-chat button {
+    width: 100%;
+  }
+}

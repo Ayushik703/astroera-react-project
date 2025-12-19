@@ -1,0 +1,221 @@
+.login-modal {
+  position: absolute;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.cross-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1056;
+}
+
+.left-login-div {
+  position: relative;
+}
+
+.ganesha-img-div {
+  width: 100%;
+}
+
+.ganesha-img-div img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.content-bg-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(181deg, #ffffff1a, #000000);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+.login-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.login-content p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.login-content span {
+  font-size: 15px;
+}
+
+.login-content a img {
+  width: 125px;
+  height: auto;
+}
+
+.right-login-div {
+  width: 95%;
+  padding: 10px 25px 10px 0;
+  height: 100%;
+  margin: auto;
+}
+
+.get-otp {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 8px;
+}
+
+.get-otp h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.get-otp label {
+  font-size: 14px;
+}
+
+.mob-number-input {
+  width: 100%;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.mob-number-input select {
+  border: none;
+  outline: none;
+  background: transparent;
+  height: 35px;
+  font-size: 14px;
+}
+
+.mob-number-input input {
+  border: none;
+  outline: none;
+  background: transparent;
+  height: 35px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.get-otp span {
+  text-align: center;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #f87927;
+  width: 100%;
+}
+
+.get-otp button {
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f77e25 0, #fb572f 100%);
+  color: #fff;
+}
+
+p.agreement {
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+}
+
+.edit-num {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+.edit-num span {
+  display: inline;
+  width: 10%;
+  color: #4a4aff;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.edit-num p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.enter-otp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.enter-otp input {
+  width: 15%;
+  height: 45px;
+  text-align: center;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.verfy-otp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .mob-none {
+    display: none;
+  }
+
+  .login-modal {
+    bottom: 0;
+    border-radius: 0;
+  }
+
+  .modal-m-0 {
+    margin: 0;
+    bottom: -17px;
+  }
+
+  .right-login-div {
+    padding: 40px 10px;
+  }
+
+  .get-otp span {
+    margin: 10px 0;
+  }
+}

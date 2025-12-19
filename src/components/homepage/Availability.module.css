@@ -1,0 +1,59 @@
+.availability-section {
+  background: #eee;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.availability-section h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.avail-inner-div {
+  position: relative;
+  background: #fff;
+  padding: 15px;
+  cursor: pointer;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 8px 0;
+}
+
+.avail-inner-div img {
+  width: 65px;
+  height: auto;
+  display: block;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.avail-inner-div p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0 5px;
+}
+
+.avail-inner-div span {
+  font-size: 14px;
+  line-height: 22px;
+  display: none;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.avail-inner-div:hover span {
+  opacity: 1;
+  display: block;
+}
+
+.avail-inner-div:hover img {
+  display: none;
+}
+
+.avail-inner-div:hover {
+  background: linear-gradient(182deg, #ff5f00c2);
+}

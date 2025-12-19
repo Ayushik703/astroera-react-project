@@ -1,0 +1,195 @@
+{
+    "serviceData": [
+        {
+            "id": "kundli",
+            "url": "https://astroera.in/free-kundli",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Kundli.png",
+            "image_alt": "Alt - Free Kundli",
+            "name": "Free Kundli"
+        },
+        {
+            "id": "horoscope",
+            "url": "https://astroera.in/horoscope",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Horoscope.png",
+            "image_alt": "Alt - Horoscope",
+            "name": "Free Horoscope"
+        },
+        {
+            "id": "maglik",
+            "url": "https://astroera.in/vedic-astrology/mangal-dosha-report",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/manglik-home.webp",
+            "image_alt": "Alt - Mangal Dosha Calculator",
+            "name": "Mangal Dosha Calculator"
+        },
+        {
+            "id": "dasha",
+            "url": "https://astroera.in/vedic-astrology/dasha-calculator",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/dasha-home.webp",
+            "image_alt": "Alt - Dasha Calculator",
+            "name": "Dasha Calculator"
+        },
+        {
+            "id": "compatibility",
+            "url": "https://astroera.in/compatibility",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/compatibility-home.webp",
+            "image_alt": "Alt - Compatibility",
+            "name": "Compatibility"
+        },
+        {
+            "id": "rajyoga",
+            "url": "https://astroera.in/rajyog-calculator",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/rajyoga-home.png",
+            "image_alt": "Alt - Raj yoga Calculator",
+            "name": "Raj yoga Calculator"
+        },
+        {
+            "id": "marriage",
+            "url": "https://astroera.in/marriage-calculator",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Marriage.png",
+            "image_alt": "Alt - Marriage Calculator",
+            "name": "Marriage Calculator"
+        },
+        {
+            "id": "muhurat",
+            "url": "https://astroera.in/muhurat",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Subh-Muhurat.png",
+            "image_alt": "Alt - Shubh Muhurat",
+            "name": "Shubh Muhurat"
+        }
+    ],
+    "pujaData": [
+        {
+            "id": "puja_1",
+            "url": "https://astroera.in/shop/pooja-for-grah-planet/mangal-dosh-nivaran-pooja",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Mangal-dosh-nivaran-pooja.webp",
+            "image_alt": "Alt - Mangal Dosh Nivaran Pooja",
+            "name": "Mangal Dosh Nivaran Pooja",
+            "one_liner": "Mangal Dosh Nivaran Pooja removes obstacles for a peaceful life."
+        },
+        {
+            "id": "puja_2",
+            "url": "https://astroera.in/shop/pooja-for-love-and-marriage/gauri-shankar-pooja",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Gauri-Shankar.webp",
+            "image_alt": "Alt - Gauri Shankar Pooja",
+            "name": "Gauri Shankar Pooja",
+            "one_liner": "Gauri Shankar Pooja is performed to strengthen relationships and ensure marital bliss."
+        },
+        {
+            "id": "puja_3",
+            "url": "https://astroera.in/shop/pooja-for-love-and-marriage/shiv-parvathi-pooja",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Shiv-Parvati.webp",
+            "image_alt": "Alt - Shiv Parvathi Pooja",
+            "name": "Shiv Parvathi Pooja",
+            "one_liner": "Shiv Parvathi Pooja brings marital bliss, prosperity, and removes obstacles."
+        },
+        {
+            "id": "puja_4",
+            "url": "https://astroera.in/shop/pooja-for-love-and-marriage/uma-maheshwari-pooja",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Uma-Maheshwari.webp",
+            "image_alt": "Alt - Uma Maheshwari Pooja",
+            "name": "Uma Maheshwari Pooja",
+            "one_liner": "Uma Maheshwari Pooja brings marital bliss, family happiness, and removes obstacles."
+        },
+        {
+            "id": "puja_5",
+            "url": "https://astroera.in/shop/pooja-for-career-and-education/sarv-graha-pooja",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Sarv-Grah-Puja.webp",
+            "image_alt": "Alt - Sarv Graha Pooja",
+            "name": "Sarv Graha Pooja",
+            "one_liner": "Sarv Graha Pooja for harmony and peace."
+        }
+    ],
+    "availData": [
+        {
+            "id": "id_1",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Customer-Review.png",
+            "image_alt": "Happy Customers",
+            "name": "Happy Customers",
+            "one_liner": "Loved by Millions, Trusted by hearts 20 Lakh+ People find peace with us."
+        },
+        {
+            "id": "id_2",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/World-wide.png",
+            "image_alt": "180+ countries",
+            "name": "180+ countries",
+            "one_liner": "Astroera guides people across 180+ countries with wisdom and care."
+        },
+        {
+            "id": "id_3",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/27-7.png",
+            "image_alt": "24x7 Availability",
+            "name": "24x7 Availability",
+            "one_liner": "Anytime You Need, We Are Here stands Beside You 24x7."
+        }
+    ],
+    "promiseData": [
+        {
+            "id": "promise_1",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/encrypted.webp",
+            "image_alt": "Alt - private and confidential",
+            "name": "Private and Confidential"
+        },
+        {
+            "id": "promise_2",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/manager.webp",
+            "image_alt": "Alt - Verified Astrologers",
+            "name": "Verified Astrologers"
+        },
+        {
+            "id": "promise_3",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/payment-gateway.webp",
+            "image_alt": "Alt - Secure Payments",
+            "name": "Secure Payments"
+        }
+    ],
+    "reviewsData": [
+        {
+            "id": "review_1",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Male-2.webp",
+            "image_alt": "Alt - Vikram",
+            "name": "Vikram",
+            "country": "Canada",
+            "review": "Astroera's free daily horoscope is so much insightful and helpfull, i can't imagine starting  my day without reading it. For people like us staying Outside India, it is such an amazing service to stay connected with the best astrologers and get guidance for a better future. Thank you, team Astroera, for your initiative."
+        },
+        {
+            "id": "review_2",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Priyanka.webp",
+            "image_alt": "Alt - Jyoti",
+            "name": "Jyoti",
+            "country": "India",
+            "review": "I recently had a Baby Boy and was worried about my health and future but the astrologer's at Astroera assured me that nothing will go wrong, and I will have a beautiful child and same  happened. I'm really grateful to Astroera astrologer's for their guidance during my pregnancy period."
+        },
+        {
+            "id": "review_3",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Male-1.webp",
+            "image_alt": "Alt - Sachit",
+            "name": "Sachit",
+            "country": "London",
+            "review": "I express my gratitude to the Astroera team for organizing the Puja online, and I express my deep gratitude to the Pandits for holding the ceremony. Thanks to AstroEra, we who live far beyond India have the opportunity to participate in Hindu religious ceremonies."
+        },
+        {
+            "id": "review_4",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Ayushi.webp",
+            "image_alt": "Alt - Ayushi",
+            "name": "Ayushi",
+            "country": "India",
+            "review": "I recently had a session about my relationship with Numerologist Acharya Ravi, and her guidance truly helped me find clarity and make peace with certain things. Thanks for your service. That initial experience helped build the trust I needed to move forward."
+        },
+        {
+            "id": "review_5",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Male-3.webp",
+            "image_alt": "Alt - Shobit",
+            "name": "Shobit",
+            "country": "India",
+            "review": "Great initiative by team Astroera. Got my birth chart detailed reading done at a very reasonable rate, and very accurate. From the bottom of my Heart, thank you to Astroera and their astrologers."
+        },
+        {
+            "id": "review_6",
+            "image_url": "https://d2vlk40wphb5v6.cloudfront.net/public/frontend/img/Ritik.webp",
+            "image_alt": "Alt - Ritik",
+            "name": "Ritik",
+            "country": "India",
+            "review": "Got a detailed reading by astrologer. she understood all my problems and guided me how to overcome the challenges that I was facing in my love life. I would recommend Astroera platform to my friends and family for sure."
+        }
+    ]
+}

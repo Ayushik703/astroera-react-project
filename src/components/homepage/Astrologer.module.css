@@ -1,0 +1,150 @@
+/* -------------------------- Astrologer Profile --------------------------- */
+
+.astrologers-profile-cards {
+  margin: 20px 0;
+}
+.astrologers-profile-cards h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.profile-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  margin-top: 30px;
+}
+.width-card {
+  width: 19%;
+}
+
+.astrologers {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px 5px;
+  border-radius: 8px;
+}
+
+.astrologers:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.astrologers span {
+  position: absolute;
+  right: 16px;
+  top: 0;
+  font-size: 10px;
+  background: #f87528;
+  color: #fff;
+  width: 55px;
+  border-radius: 10px;
+}
+
+.astrologers img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #f87528;
+}
+
+.rating-stars {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.rating-stars .filled-star {
+  color: #ffa200;
+  font-size: 12px;
+}
+
+.rating-stars .empty-star {
+  color: #eee;
+  font-size: 12px;
+}
+
+.astrologers a {
+  display: block;
+  margin-top: 6px;
+  color: #926d34;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.chat-call-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.chat-call-btns a {
+  text-transform: uppercase;
+  color: #008000;
+  border: 1px solid #008000;
+  width: 75%;
+  height: 30px;
+  line-height: 28px;
+  margin: 0;
+  border-radius: 20px;
+  font-size: 12px;
+  background: #fff;
+}
+
+.chat-call-btns a:hover {
+  background: #008000;
+  color: #fff;
+  transition: 0.5s;
+}
+p.skills {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  color: #3f3f3f;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .astrologers-profile-cards h2 {
+    font-size: 22px;
+  }
+
+  .profile-cards {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #aaa #f1f1f1;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: start;
+  }
+  .width-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .astrologers {
+    width: 180px;
+  }
+
+  .astrologers span {
+    right: -3px;
+  }
+  .astrologers a {
+    font-size: 14px;
+  }
+  p.skills {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,103 @@
+.astrologer-card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.astrologer-card-div {
+  margin: 20px 0;
+}
+
+.left-card-side {
+  text-align: center;
+}
+
+.verified-img {
+  text-align: left;
+}
+
+.astro-profile-img {
+  margin: 5px 0;
+}
+
+.astro-profile-img img {
+  background: linear-gradient(0deg, #be2a2a -86.4%, #ef7f1a 94.15%);
+  padding: 4px;
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.astrologer-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  margin-top: 10px;
+}
+
+.astrologer-rating i {
+  font-size: 12px;
+}
+
+.astrologer-name {
+  font-size: 16px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.astrologer-name:hover {
+  color: #d95921;
+}
+
+.span-div {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 0px;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.span-div span {
+  display: block;
+  font-size: 14px;
+}
+
+.avail-cost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.right-card-side {
+  width: 100%;
+}
+
+.avail-cost button {
+  border: 1px solid green;
+  background: #fff;
+  color: green;
+  padding: 4px 25px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.avail-cost button:hover {
+  background: green;
+  color: #fff;
+}
+
+.avail-cost p {
+  font-size: 12px;
+  background: #eee;
+  padding: 3px 15px;
+  border-radius: 16px;
+}

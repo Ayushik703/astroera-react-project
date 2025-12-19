@@ -1,0 +1,302 @@
+/* Footer css */
+
+footer {
+  background: #f6f7f9;
+  padding-top: 25px;
+}
+
+.footer-inner {
+  background: #fff;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.about-atroera p {
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.about-atroera span {
+  font-size: 15px;
+  line-height: 24px;
+  display: block;
+  color: #424242;
+}
+
+.down-footer-urls {
+  margin-bottom: 15px;
+}
+
+.down-footer-urls p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+ul.page-urls {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.page-urls li {
+  line-height: 30px;
+}
+
+ul.page-urls li a {
+  font-size: 14px;
+  color: #424242;
+  text-decoration: none;
+}
+
+ul.page-urls li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+ul.contact-div {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.contact-div li {
+  padding: 5px 0;
+}
+
+ul.contact-div li a {
+  color: #424242;
+  text-decoration: none;
+}
+
+ul.contact-div li a p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+ul.contact-div li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+ul.contact-div li a span {
+  font-weight: 600;
+  font-size: 15px;
+}
+.new-footer-badge {
+  position: absolute;
+  background: #aeaeae;
+  font-size: 9px;
+}
+
+/* Grey Footer */
+
+.footer-social {
+  background: #f6f7f9;
+  padding: 20px 15px;
+  border-radius: 20px;
+}
+
+.footer-social-inner {
+  text-align: center;
+}
+
+.footer-social-inner p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #646464;
+  margin-bottom: 10px;
+}
+
+.application-url {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-url {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-url a {
+  color: #fff;
+}
+
+.social-url a i {
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.fb-color {
+  background: linear-gradient(90deg, #314d8f 0, #4d73c4 100%) !important;
+}
+
+.linkedin-color {
+  background: #0a66c2;
+}
+
+.insta-color {
+  background: linear-gradient(
+    60deg,
+    #ffbd51 0,
+    #fd633f 35%,
+    #a131bf 68%,
+    #b32fb7 100%
+  ) !important;
+}
+
+.youtube-color {
+  background: #ff0000;
+}
+
+.tweet-color {
+  background: #000;
+}
+
+.footer-social-inner {
+  text-align: center;
+}
+
+.footer-social-inner p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #646464;
+  margin-bottom: 10px;
+}
+
+.application-url {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-url {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-url a {
+  color: #fff;
+}
+
+.social-url a i {
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.rating-url {
+  text-decoration: none;
+  background: #fff;
+  display: block;
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.7s;
+}
+
+.rating-url span {
+  color: gold;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.google-rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.google-rate img {
+  width: 25px;
+  height: auto;
+}
+
+.google-rate span {
+  color: #222;
+  font-size: 16px;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.rating-url:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.copyright-footer {
+  padding: 15px 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.copyright-footer p {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .footer-inner {
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .about-atroera p {
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .about-atroera span {
+    font-size: 14px;
+    line-height: 23px;
+    display: block;
+    color: #424242;
+  }
+  .down-footer-urls p {
+    font-size: 15px;
+  }
+  ul.page-urls li a {
+    font-size: 13px;
+  }
+  .new-footer-badge {
+    font-size: 8px;
+    right: -15px;
+    bottom: 17px;
+  }
+  ul.contact-div li a p {
+    font-size: 16px;
+  }
+  ul.contact-div li a span {
+    font-size: 14px;
+  }
+  .footer-social {
+    background: #f6f7f9;
+    padding: 20px 10px;
+    border-radius: 20px;
+  }
+  .footer-social-inner {
+    margin-bottom: 15px;
+  }
+  .social-url {
+    gap: 15px;
+  }
+  .rating-url {
+    width: 90%;
+  }
+  .copyright-footer p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

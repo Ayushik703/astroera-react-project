@@ -1,0 +1,199 @@
+/* Upper Header Css start */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+}
+
+.big-header {
+  background: #fff;
+  padding: 20px 0;
+}
+
+.web-header-logo {
+  text-align: center;
+}
+
+.web-header-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+}
+
+.three-header-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.three-header-btns a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 10px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #555;
+  gap: 2px;
+  text-align: center;
+}
+
+.three-header-btns a:hover {
+  background-image: linear-gradient(90deg, #f87e25 0, #fc582f 100%);
+  transform: scale(1.05);
+  transition: transform 0.1s ease-in;
+  color: inherit;
+  border: 1px solid #f77e25;
+}
+
+.three-header-btns a img {
+  width: 25px;
+  height: auto;
+}
+
+.three-header-btns a:hover img {
+  filter: brightness(0) invert(1);
+  transition: 1s;
+}
+
+.three-header-btns a span {
+  font-size: 15px;
+}
+
+.login-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.signin-modal-btn {
+  background-image: linear-gradient(90deg, #f77e25 0, #fb572f 100%);
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  transition: 0.5s;
+}
+
+.signin-modal-btn:hover {
+  background-image: none;
+  background-color: #001a4a;
+  scale: 1.05;
+}
+
+.get-app {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background: #001a4a;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.get-app:hover {
+  scale: 1.05;
+  color: #fff;
+}
+
+/* Upper Header Css end */
+
+/* Lower Header Css start */
+
+.lower-navbar {
+  background: linear-gradient(0deg, #be2a2a -86.4%, #ef7f1a 94.15%);
+}
+
+.head-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.head-navbar li a {
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.head-navbar .nav-item.dropdown:hover > .nav-link {
+  color: #fff !important;
+}
+
+.head-navbar li a::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  height: 2px; /* thickness of border */
+  background: #fff; /* border color */
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.head-navbar li a:hover::before {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.head-navbar li a:hover {
+  color: #fff !important;
+}
+.hover-menu {
+  max-height: 360px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #ffff;
+  scrollbar-width: thin;
+  width: 250px;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+  border-bottom: 5px solid #d75521;
+  max-width: max-content;
+  left: -15px;
+}
+
+.hover-menu li a {
+  color: #222;
+  font-size: 15px;
+  padding: 6px 10px;
+}
+.hover-menu li a:hover {
+  color: #222 !important;
+  background: #fff;
+}
+.hover-menu li a::before {
+  background: #d75521;
+  width: 90%;
+}
+.lang-select {
+  background: transparent;
+  border: none;
+  color: #ffff;
+  outline: none;
+}
+
+.lang-select option {
+  color: #000;
+  border: none;
+  outline: none;
+}
