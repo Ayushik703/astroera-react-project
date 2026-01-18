@@ -1,12 +1,73 @@
-# React + Vite
+# AstroEra – Astrology & Consultation Platform (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AstroEra is a React-based frontend web application designed for an astrology and consultation platform.  
+The project focuses on a clean UI, modular component structure, and scalable frontend architecture.
 
-Currently, two official plugins are available:
+This project is built to demonstrate real-world React practices such as component reusability, modular CSS, and organized folder structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Modern React application using **Vite**
+- Clean and modular component-based architecture
+- Multiple pages (Home, Chat, Services, Blogs, etc.)
+- Reusable UI components (Navbar, Footer, Cards, Modals)
+- CSS Modules for scoped and maintainable styling
+- Responsive layout for better user experience
+- Well-structured folder organization for scalability
+
+---
+
+## 🛠️ Tech Stack
+
+- **React (JSX)**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS Modules**
+- **HTML5**
+- **Git & GitHub**
+
+---
+
+## 📁 Project Folder Structure
+
+src/
+│
+├── api/ # API-related logic (future scalability)
+├── assets/ # Images, icons, static assets
+│
+├── components/ # Reusable UI components
+│ ├── chatpage/
+│ ├── global/
+│ ├── Layout/
+│ └── homepage/
+│
+├── pages/ # Application pages
+│ ├── Chat.jsx
+│ └── Home.jsx
+│
+├── App.jsx # Main app component
+├── main.jsx # Application entry point
+├── index.css # Global styles
+
+
+---
+
+## 🧩 Key Components
+
+- **Navbar & Footer** – Common layout components
+- **AstrologerCard** – Displays astrologer details
+- **ChatRequestForm** – Handles chat request input
+- **LoginModal** – User authentication modal
+- **Homepage Sections** – Services, Reviews, Blogs, FAQs, Pujas, etc.
+
+Each component uses **CSS Modules** to keep styles scoped and maintainable.
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Ayushik703/astroera-react-project.git
